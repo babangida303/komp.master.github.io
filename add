@@ -1,0 +1,32 @@
+            <p>Это основное содержимое страницы с дополнительными элементами.</p>
+            <button class="button">Кнопка 1</button>
+            <button class="button">Кнопка 2</button>
+
+            <h2>Форма обратной связи</h2>
+            <form>
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name" placeholder="Ваше имя"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Ваш email"><br>
+                <input type="submit" value="Отправить" class="button">
+            </form>
+
+            <h2>Таблица данных</h2>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Имя</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Алексей</td>
+                    <td>alexey@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Мария</td>
+                    <td>maria@example.com</td>
+                </tr>
+                <!-- Добавьте столько строк, сколько необходимо -->
+            </table>
